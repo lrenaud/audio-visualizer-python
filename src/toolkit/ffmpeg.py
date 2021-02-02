@@ -227,8 +227,8 @@ def createFfmpegCommand(inputFile, outputFile, components, duration=-1):
         '-pix_fmt', 'rgba',
         '-r', Core.settings.value('outputFrameRate'),
         '-t', duration,
-        '-i', '-',  # the video input comes from a pipe
         '-an',  # the video input has no sound
+        '-i', '-',  # the video input comes from a pipe
 
         # INPUT SOUND
         '-t', duration,

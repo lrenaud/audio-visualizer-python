@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 
 
-__version__ = '2.0.0rc5'
+__version__ = '2.0.0rc5-v1'
 
 
 def package_files(directory):
